@@ -3,8 +3,8 @@
 	 width: 100%;
 	 height: 65px;
 	 overflow: hidden;
-     user-select: none; /* Empêche la sélection de texte */
-     cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+     user-select: none;
+     cursor: pointer;
 }
  .result__info {
 	 position: absolute;
@@ -270,10 +270,10 @@ i.fa-solid {
 .setting select#word-list {
     width: 100%;
     height: calc(65px - 10px);
-    background: transparent; /* Fond transparent pour voir le fond du conteneur .setting */
+    background: transparent;
     border-radius: 8px;
     color: #fff;
-    border: none; /* Pas de bordure pour le <select> car la bordure est sur le conteneur .setting */
+    border: none;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -285,8 +285,7 @@ i.fa-solid {
 
 .setting select#word-list:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0); /* Cette ombre simule une bordure lors de la mise au point */
-}
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
 
 .setting select#word-list option {
     background: #0a0e31;
@@ -300,7 +299,7 @@ i.fa-solid {
 
 
 .error-border {
-    border: 2px solid red !important; /* !important pour s'assurer que cela écrase d'autres styles */
+    border: 2px solid red !important;
 }
 
 div:empty::before {
