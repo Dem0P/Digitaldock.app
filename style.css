@@ -271,8 +271,6 @@ i.fa-solid {
     background: transparent; /* Fond transparent pour voir le fond du conteneur .setting */
     border-radius: 8px;
     color: #fff;
-    font-family: "Montserrat";
-	font-size: 16px;
     border: none; /* Pas de bordure pour le <select> car la bordure est sur le conteneur .setting */
     appearance: none;
     -webkit-appearance: none;
