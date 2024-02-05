@@ -240,15 +240,6 @@ i.fa-solid {
 	 padding: 10px;
 	 display: flex;
 }
- a {
-	 margin: 0 20px;
-	 color: #fff;
-	 font-size: 2rem;
-	 transition: all 400ms ease;
-}
- a:hover {
-	 color: #222;
-}
  .github-corner svg {
 	 position: absolute;
 	 right: 0;
