@@ -1,29 +1,4 @@
- button {
-	 border: 0;
-	 outline: 0;
-}
- .container {
-	 margin: 40px 0;
-	 width: 400px;
-	 height: 650px;
-	 padding: 10px 25px;
-	 background: #0a0e31;
-	 border-radius: 10px;
-	 box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
-	 font-family: "Montserrat";
-}
 
- .container h2.title {
-	 font-size: 1.75rem;
-	 margin: 10px -5px;
-	 margin-bottom: 15px;
-	 color: #fff;
-	 display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
- 
  .result {
 	 position: relative;
 	 width: 100%;
